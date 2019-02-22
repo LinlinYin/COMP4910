@@ -25,7 +25,7 @@ group by emp_no;
 #Q5. employees are listed as either senior staff or staff
 select count(distinct emp_no)
 from titles
-where title in ('staff', 'senior staff ');
+where title in ('staff', 'senior staff');
 
 
 
