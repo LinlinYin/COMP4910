@@ -10,7 +10,7 @@ group by gender;
 select dept_no,count(distinct emp_no)
 from dept_emp
 where  dept_no='d007' 
-and from_date <='1991-03-07' and to_date >='1985-01-01'
+and from_date <='1986-01-01' and to_date >='1991-03-07'
 group by dept_no;
 
 # Q4 distinct employee numbers;Group the employees in terms of employee numbers and obtain the average salary for each group
